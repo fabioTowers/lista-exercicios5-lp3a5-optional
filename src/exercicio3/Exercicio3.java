@@ -31,7 +31,6 @@ public class Exercicio3 {
 		
 		Optional<String> resultado = nomes.stream().filter(e -> e.startsWith("W")).findAny();
 		
-		
 		if(resultado.isPresent())
 			System.out.println( resultado );
 		else
